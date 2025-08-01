@@ -1,3 +1,6 @@
+#### Live Demo
+🔗 **[View Live Demo on CodeSandbox](https://codesandbox.io/p/sandbox/github/Thrivestack-public/Sample-Application-Analytics-NPM/tree/main/NextJS(NPM))**
+
 #### Integration Steps
 
 1. **Install ThriveStack NPM Package**
