@@ -2,9 +2,7 @@
 
 1.  **Access WebFlow Project Settings**
 
-    1.Open your WebFlow project dashboard
-    2.Click on the Project Settings (gear icon) in the left sidebar
-    3.Navigate to the Custom Code tab
+    Open your WebFlow project dashboard -> Click on the Project Settings (gear icon) in the left sidebar ->Navigate to the Custom Code tab
 
     ![WebFlow Custom Code Settings](../assets/Webflow-custom-code.png)
 
