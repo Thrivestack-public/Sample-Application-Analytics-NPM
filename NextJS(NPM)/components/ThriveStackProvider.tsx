@@ -10,7 +10,7 @@ export default function ThriveStackProvider({
 }) {
   useEffect(() => {
     thrivestack.init(
-      "z5CBiPKJOcjscD9ipLjYVyEWuWzBD1/142xgzV2myl0=",
+      "{API_KEY}",
       "marketing,product"
     );
   }, []);
