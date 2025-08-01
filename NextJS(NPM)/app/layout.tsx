@@ -1,8 +1,7 @@
+import ThriveStackProvider from "@/components/ThriveStackProvider";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import ThriveStackProvider from "../components/ThriveStackProvider";
-import * as amplitude from "@amplitude/analytics-node";
 
 const inter = Inter({ subsets: ["latin"] });
 

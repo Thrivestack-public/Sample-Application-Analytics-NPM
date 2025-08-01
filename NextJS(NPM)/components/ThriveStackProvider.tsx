@@ -1,3 +1,4 @@
+// components/ThriveStackProvider.tsx
 "use client";
 
 import { useEffect } from "react";
@@ -10,7 +11,7 @@ export default function ThriveStackProvider({
 }) {
   useEffect(() => {
     thrivestack.init(
-      "{API_KEY}",
+      "{api-key}",
       "marketing,product"
     );
   }, []);

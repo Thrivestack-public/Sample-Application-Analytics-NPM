@@ -10,6 +10,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Eye, EyeOff, Mail, Lock, User, ArrowRight } from 'lucide-react';
 import Navigation from '@/components/ui/navigation';
+import * as thrivestack from "@thrivestack/analytics-browser";
 
 export default function SignupPage() {
   const router = useRouter();
@@ -57,6 +58,8 @@ export default function SignupPage() {
     if (!validateForm()) return;
 
     setIsLoading(true);
+    thrivestack.setUser("18f716ac-37a4-464f-adb7-3cc30032308c","john.doe@acme.xyz");
+    thrivestack.setGroup("ac8db7ba-5139-4911-ba6e-523fd9c4704b", "acme.com","Acme Corporation")
     
     // Simulate API call
     setTimeout(() => {
